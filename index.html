@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en"> <!--sets language to english-->
+  <head>
+       <!--
+   FED CA1 WEBSITE
+   
+   Author: Li Yongjie
+   Date: 17 May 2023x
+   Filename: index.html
+   View on: 1366 x 768
+   -->
+   <meta charset="UTF-8"> 
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/navbar.css">
+   <link rel="stylesheet" href="css/basic.css">
+   <link rel="stylesheet" href="css/hero.css">
+   <link rel="stylesheet" href="css/layout.css">
+   <link rel="stylesheet" href="css/main.css">
+   <link rel="stylesheet" href="css/graphic.css">
+   <link rel="stylesheet" href="css/index.css">
+   <title>My Site - Green @ SP</title>
+   <link rel="icon" type="image/x-icon" href="images/planet-earth-logo.png"><!--sets the icon of the webpage to the img-->
+    <!--image from:https://www.flaticon.com/free-icon/planet-earth_1598431-->
+    <!--The same header and footer is used throughout except for title name so I will not be commenting on other headers & footers on other html.-->
+  </head>
+  
+  <body>
+    <a class="navimg" href="index.html"><img src="images/planet-earth-logo.png" alt=""></a>
+    <!--Image from: https://www.flaticon.com/free-icon/planet-earth_1598431-->
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="sustainability.html">Sustainability</a></li>
+        <li><a class="last" href="green@sp.html">Green @ SP</a></li>
+      </ul>
+    </nav>
+    
+    <div class="hero-section-index hero-section">
+      <div class="hero-text">
+        <h1 style="font-size: 60px">Save the Earth</h1>
+        <p><strong>Go Clean and Green for a Better Scene</strong> </p>
+        <a class="hero-button" href="#index-content"><img src="images/down-arrow.gif" alt=""></a><!--creates a down arrow in hero section that scrolls to content-->
+      </div>
+    </div>
+
+    <!--Content & Flip Cards-->
+    <div id="index-content"></div>
+    <h1 class="content-heading">Content</h1>
+    <div class="flex-three-col"><!--Creates 3 different flip cards-->
+       
+       <!--First Flip Card-->
+      <div class="three-column-one">
+        <div class="flip-card">
+            <div class="flip-card-inner">
+            <div class="flip-card-front">
+          <img class="circle-img" src="images/circleimg1.gif" alt="">
+          <div class="card-text">
+            <h2>About Me</h2>
+            <p>
+              Hello! I'm Yongjie, a 17 yr old currently pursuing a Diploma in Applied Ai & Analytics in Singapore Poly.
+            </p>
+          </div>
+        </div>
+          <div class="flip-card-back">
+            <h2>About Me</h2>
+            <p>As a tech savy person, I have always<br> been interested in computers & programming, which is the reason
+              I have decided to pursue this course!</p>
+            <br>
+            <p>During my free time, I enjoy playing <br> video games and going out with
+               my friends to have fun and relax.</p>
+            <br>
+            <p>My favourite colour is blue!</p>   
+            <a class="button" href="about.html">Find Out More</a>
+          </div>
+        </div>
+        </div>
+      </div>
+   
+      <!--Second Flip Card-->
+      <div class="three-column-two">
+        <div class="flip-card">
+          <div class="flip-card-inner">
+          <div class="flip-card-front">
+          <img class="circle-img" src="images/circleimg2.gif" alt="">
+          <div class="card-text">
+            <h2>Sustainable Goals</h2>
+            <p>
+              At this rate, the Earth will suffer irreversible damage and it needs <strong><br>YOUR HELP!</strong>
+            </p>
+          </div>
+        </div>
+        <div class="flip-card-back">
+          <h2>Sustainable Goals</h2>
+          <h3>Here are 3 simple ways <br><strong>YOU</strong> can help save the Environment&#10084;<!--Code for heart icon--></h3>
+          <ol>
+          <li>Decrease Your Carbon Footprint!</li>
+          <li>Reuse, Reduce, Recycle!!</li>
+          <li>Lastly, Engage in Environmental Activities!!!</li>
+          </ol>
+          <a class="button" href="sustainability.html">Find Out More</a> 
+      </div>
+      </div>
+      </div>
+    </div>
+      
+    <!--Third Flip Card-->
+      <div class="three-column-three">
+        <div class="flip-card">
+          <div class="flip-card-inner">
+          <div class="flip-card-front">
+          <img class="circle-img" src="images/circleimg3.gif" alt="">
+          <div class="card-text">
+            <h2>Environment</h2>
+            <p>
+              Each living being on Earth knows the importance of Earth in our
+              lives.
+            </p>
+          </div>
+        </div>
+        <div class="flip-card-back">
+          <h2>Green @ SP</h2>
+          <p>As sustainability has become a wide concern, Singapore Polytechnic has also
+             decided to join the iniviative to Go Green as well.</p><br>
+          <p>Learn more about what Singapore Polytechnic has done to promote sustainability!</p> <br>
+          <p>View upcoming Events that YOU can take part in as well to be part of a bigger cause.</p>
+          <a class="button" href="green@sp.html">Find Out More</a>
+        </div>
+       </div>
+       </div> 
+      </div>
+    </div>
+
+    <footer>
+      <div class="flex-five-col">
+      <div class="five-column-one"><!--Links to home page-->
+        <h3><a href="index.html">Home</a></h3>
+        <ul>
+        <li><a href="index.html#index-content">Content</a></li>
+      </ul>
+      </div>
+      <div class="five-column-two"><!--Links to other parts of About Me-->
+        <h3><a href="about.html">About Me</a></h3>
+        <ul>
+          <li><a href=about.html#about-intro>Intro</a></li>
+          <li><a href="about.html#about-personality">Personality</a></li>
+          <li><a href=about.html#about-values>Values</a></li>
+          <li><a href=about.html#about-interest>Interests</a></li>
+        </ul>
+    </div>
+      <div class="five-column-three"><!--Links to other parts of Sustainability-->
+        <h3><a href="sustainability.html">Sustainability</a></h3>
+        <ul>
+        <li><a href="sustainability.html#sustain-intro">Intro</a></li>
+        <li><a href="sustainability.html#sustain-thoughts">Thoughts</a></li>
+        <li><a href="sustainability.html#sustain-goals">Goals</a></li>
+      </ul>
+      </div>
+      <div class="five-column-four"><!--Links to other part of Green @ SP-->
+        <h3><a href="green@sp.html">Green @ SP</a></h3>
+        <ul>
+          <li><a href="green@sp.html#sp-pledge">Pledge</a></li>
+          <li><a href="green@sp.html#sp-progress">Progress</a></li>
+          <li><a href="green@sp.html#sp-initiate">Initiatives</a></li>
+          <li><a href="green@sp.html#sp-collab">Collaborations & Patnerships</a></li>
+        </ul>
+      </div>
+      <div class="five-column-five"> <!--Icons that provide ways to contacting me-->
+        <h3>Contact Me</h3>
+        <a href="https://www.instagram.com/li.y0ng/" target="_blank"><img src="images/contactimg1.png" alt=""></a>
+        <!--Instagram Imgage - from: https://www.freepik.com/free-vector/social-media-icons-vector-set-with-facebook-instagram-twitter-tiktok-youtube-logos_17221200.htm#query=instagram%20logo%20white&position=0&from_view=keyword&track=ais-->
+        <a href="tel:97262926"><img src="images/contactimg2.png" alt=""></a>
+        <!--Phone Image - from: https://icon-library.com/icon/phone-white-icon-23.html-->
+        <a href="mailto:yongjie2468@gmail.com"><img src="images/contactimg3.png" alt=""></a>
+        <!--E-Mail Image - from: https://www.pngkit.com/bigpic/u2e6u2u2q8t4a9u2/-->
+      </div>
+      </div>
+
+      <p class="address">Copyright &copy; 2023 by Li Yongjie &#8226; 500 Dover Rd, Singapore 139651</p>
+    </footer>
+  </body>
+</html>

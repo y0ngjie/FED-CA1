@@ -1,0 +1,58 @@
+/*
+FED CA1 WEBSITE
+
+Author: Li Yongjie
+Date: 17 May 2023
+Filename: navbar.css */
+
+/* Navigation Bar Style */
+
+.navbar {
+  display:flex;
+  align-items: center;
+  justify-content: right;
+  background: linear-gradient(0.25turn,rgb(106, 222, 119), rgb(179, 228, 225));
+  height: 80px;
+  /* border-bottom: 5px solid yellow; */
+}
+
+.navimg {
+  display:flex; 
+  width:115px;
+  height: 115px; /*makes the image pop out of the navbar on purpose*/
+  position: absolute; /*this makes the image stay at the top left no matter what is there*/
+  margin-left: 10px;
+  margin-top:5px;
+ }
+
+ /* Navbar Listed */
+
+.navbar ul {
+  list-style-type: none;
+}
+
+.navbar li {
+
+  float: left;
+}
+
+.navbar ul li a {
+  display: block;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  padding: 15px 10px;
+  font-size: 15px;
+  font-family: 'Lato', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+
+/* Hover Link */
+
+.navbar ul li a:hover {
+  border-radius: 5px;
+  background-color: rgb(0, 0, 0);
+  color: rgba(246, 246, 246, 0.982);
+}

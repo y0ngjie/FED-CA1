@@ -1,0 +1,95 @@
+/*
+FED CA1 WEBSITE
+
+Author: Li Yongjie
+Date: 17 May 2023
+Filename: navbar.css */
+
+/*GREEN @ SP CSS*/
+
+h2{
+    color: black;
+    padding-top: 50px;
+}
+
+hr{
+    margin:50px /*creates a thick horizontal line*/
+ }
+
+
+.progress {
+    list-style-type: none;/*removes the bullet point*/
+}
+
+.progress img{
+    height: 150px;
+    width: 150px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 50%; /*makes the image a circle*/
+    padding:10px;
+    margin-top:30px;
+}
+
+.progress p {
+    font-size: 15px;
+    font-weight:lighter; /*lighter compared to the set font-weight*/
+    width: 60%;
+    margin: 0 auto;
+}
+
+.spmap{
+    width: 700px; /*sets the width to 700px*/
+}
+
+.collab li{
+    text-align: left;
+    margin-top:30px;
+    list-style: square;
+    font-size: 16px
+}
+
+.collab li:hover {
+    color: blue;
+    text-decoration: underline; /*underlines the hyperlink when hovered upon*/
+}
+
+.initiatives{
+    text-align: left;
+}
+
+.initiatives h3{
+    margin-top: 40px;
+}
+
+.initiatives p{
+    padding: 10px;
+    padding-top: 20px;
+}
+
+.button{
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: black;
+    background-color: #c5f0a8;
+    cursor:pointer;
+    font-weight: bold;
+    box-shadow: rgb(149, 162, 147) 3px 3px 3px 2px;
+}
+
+ .clean-day-img {
+    display: flex;
+    width:500px;
+    margin: 0 auto;
+    border-radius: 10px;
+ }
+
+ .envclub-img {
+    display: flex;
+    width:300px;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-bottom: 30px;
+ }

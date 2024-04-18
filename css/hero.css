@@ -1,0 +1,54 @@
+/*
+FED CA1 WEBSITE
+
+Author: Li Yongjie
+Date: 17 May 2023
+Filename: hero.css */
+
+/* Hero CSS */
+.hero-section {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;    
+}
+
+.hero-section-about {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)), url("../images/about.hero.jpg");
+    height: 50vh;
+}
+
+.hero-section-index {
+    background-image: linear-gradient(rgba(225, 179, 179, 0.2), rgba(0, 0, 0, 0.7)), url("../images/beachwave.gif");
+    /* GIF from: https://giphy.com/gifs/art-cinemagraph-l1J9BYe5eZccC4Nck */
+    height: 100vh;
+}
+
+.hero-section-sp {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9)), url("../images/singapore-polytechnic.png");
+    /* Image taken from SP Website */
+    height: 50vh;
+    background-size: cover;
+    /* covers the background */
+}
+
+.hero-text {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);/*moves text to middle of the screen*/
+    color: white;
+}
+
+.hero-text h1 {
+    margin: 30px;
+  }
+
+.hero-button{
+    display: flex;
+    margin:0 auto;
+    width: 100px;
+    height: 80px;
+}

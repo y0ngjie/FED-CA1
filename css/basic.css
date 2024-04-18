@@ -1,0 +1,103 @@
+/* 
+FED CA1 WEBSITE
+
+Author: Li Yongjie
+Date: 17 May 2023
+Filename: basic.css */
+/* CSS Reset */
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* Basic Styles */
+
+@font-face {
+  font-family: Fredoka;
+  src: url("../fonts/Fredoka.ttf");
+}
+
+@font-face {
+font-family: Lato;
+src: url("../fonts/Lato-Regular.ttf");
+}
+/*create new font-style imported from goggle*/
+
+html {
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+}
+
+body::-webkit-scrollbar {
+  display: none; /*Hides scroll bar*/
+}
+
+img {
+  width: 100%;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5rem;
+}
+
+h1 {
+  font-size: 35px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-family: 'Times New Roman', Times, serif, sans-serif;
+  font-size: 30px
+}
+
+ul li {
+  font-size: 14px;
+}
+
+p {
+  font-family: Lato;
+}
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+  /*sets block quote styles*/
+}
+
+blockquote::before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+  /*align the blockquotes*/
+}
+
+blockquote::after {
+  color: #ccc;
+  content: close-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+blockquote p {
+  display: inline;
+}
+
+a {
+  color:inherit;
+  text-decoration: inherit;
+}

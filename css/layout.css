@@ -1,0 +1,137 @@
+/*
+FED CA1 WEBSITE
+
+Author: Li Yongjie
+Date: 17 May 2023
+Filename: layout.css */
+/* Two Column Layout */
+
+.flex-two-col {
+display: flex;
+margin: 50px auto;
+max-width: 1200px;
+}
+
+.column-one {
+width: 50%;
+margin: 0px 20px;
+}
+
+.column-two {
+width: 50%;
+margin: 0px 20px;
+}
+
+/* Three Column Layout */
+
+.flex-three-col {
+display: flex;
+margin: 50px auto;
+max-width: 1200px;
+}
+
+.three-column-one {
+width: 33.33%;
+margin: 0px 20px;
+}
+
+.three-column-two {
+width: 33.33%;
+margin: 0px 20px;
+}
+
+.three-column-three {
+width: 33.33%;
+margin: 0px 20px;
+}
+
+/*Five column layout*/
+.flex-five-col {
+display: flex;
+margin: 50px auto;
+max-width: 1200px;
+padding-top: 20px;
+}
+
+.five-column-one {
+  width: 20%;
+  margin: 0px 20px;
+}
+.five-column-two {
+  width: 20%;
+  margin: 0px 20px;
+}
+.five-column-three {
+  width: 20%;
+  margin: 0px 20px;
+}
+
+.five-column-four {
+  width: 20%;
+  margin: 0px 20px;
+}
+
+.five-column-five {
+  width: 20%;
+  margin: 0px 20px; 
+}
+
+.flex-five-col h3 {
+  margin: 20px 0px 50px;
+  font-size: 25px;
+}
+
+.flex-five-col h3:hover {
+  color: greenyellow;
+}
+.flex-five-col li{
+  margin-top: 20px;
+  font-size:17px;
+  font-family: Fredoka,sans-serif;
+}
+
+.flex-five-col li:hover {
+  color: rgb(106, 106, 106);
+}
+
+/*Others*/
+.banner {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 200px;
+width: auto;
+margin-top: 100px;
+color: aliceblue;
+-webkit-text-stroke: 1px black; 
+/*creates an outline for the text*/
+background-position: center;
+}
+
+.line {/*creates a horizontal line for the line class*/
+background-color: gray;
+width: 1080px;
+height: 5px;
+margin: 50px auto;
+}
+
+.line-border { /*sandwiches the text between two lines*/
+  border-style: solid;
+  border-color: grey transparent ;
+  border-width: 2px;
+  padding: 5px;
+}
+
+.introduction {
+  margin: 0 auto;
+  text-align: center;
+  width: 75%;
+}
+
+.content {
+  margin: 0 auto;
+  text-align: center;
+  width: 80%;
+}
+
+

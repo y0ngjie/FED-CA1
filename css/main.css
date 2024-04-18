@@ -1,0 +1,137 @@
+    /*
+FED CA1 WEBSITE
+
+Author: Li Yongjie
+Date: 17 May 2023
+Filename: main.css */
+
+/* Main Content */ 
+
+.card-text{
+  padding: 0px 15px;
+  background-color: rgba(228, 215, 173, 0.854);
+  width: 300px;
+  margin-left: 20px;
+  border-radius: 10px;
+}
+
+.circle-img {
+  border-radius: 50%;
+  width: 75%;
+  margin: 10px;
+  border-color:black;
+  border-width: 5px ;
+  border-style: solid;
+}
+
+/*Flip Cards*/
+
+.flip-card /*sets the display for the flip-card*/{
+  background-color: transparent;
+  width: 350px;
+  height: 430px;
+  perspective: 1000px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-left: 15px;
+}
+
+
+.flip-card-inner /*creates a 3d effect*/{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;/*sets duration of the flip*/
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);/*turns to back of card when hovering*/
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;/*sets which ever side is at the back of the card to hidden so it doesn't interfere with the front*/
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px 5px rgba(61, 52, 52, 0.2);
+}
+
+.flip-card-front {
+  background-color: #ffffff;
+  color: black;
+}
+
+.three-column-one .flip-card-front{
+  background-image:url(../images/beachcard1.png);
+}
+
+.three-column-two .flip-card-front {
+  background-image: url(../images/beachcard2.png);
+  background-position: bottom;
+}
+
+.three-column-three .flip-card-front {
+  background-image: url(../images/beachcard3.png);
+}
+
+.flip-card-back {
+  background-color: #48acef;
+  color: white;
+  transform: rotateY(180deg); /*makes the class rotate 180 degree by default so it faces the back*/
+  padding: 10px;
+}
+
+.flip-card-back > ol {
+  text-align: left;
+  margin: 30px;
+}
+
+.flip-card-back > ol > li {
+  margin-bottom: 30px;
+}
+
+.flip-card-back > h3 {
+  font-family: Lato, sans-serif;
+  padding-bottom: 15px;
+}
+.flip-card-back > p {
+  font-size: 15px;
+}
+
+
+/* Footer */
+
+footer {
+
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: black;
+  height: 55vh;
+  margin-top: 50px;
+}
+
+.five-column-five h3:hover{
+  color: rgb(140, 235, 213);
+  cursor: default;
+}
+
+.five-column-five img {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.five-column-five img:first-of-type {
+  width: 43px; /*Because image is little smaller compared to other two images*/
+}
+
+.address {
+  display: flex;
+  justify-content: center;
+  text-align:center
+}

@@ -1,0 +1,158 @@
+/*FED CA1 WEBSITE
+
+Author: Li Yongjie
+Date: 17 May 2023
+Filename: sustainability.css */
+
+/* Sustainability CSS */
+h1 {
+    text-align: center;
+    color: rgba(29, 160, 44, 0.76);
+    margin-top: 20px
+}
+
+h1:first-of-type{
+    margin-top: 80px;
+}
+
+
+h2 {
+    color: rgba(29, 160, 44, 0.76);
+}
+
+.goals {
+    text-align: center;
+    color: rgba(29, 160, 44, 0.76);;
+
+}
+
+.my-thoughts {
+width: 80%;
+margin: 20px auto
+}
+
+/*Effects - creates a fade in effect*/
+@keyframes fadeIn {
+    from {opacity: 0%;}
+    to {opacity: 100%;}
+    /*creates an effect where the opactiy goes from 0 to 1*/
+}
+
+.fade-in-text p {
+    padding-left: 75px;/*initially sets text 75px to the right*/
+    opacity: 0;
+    margin-top: 20px;
+}
+
+
+.fade-in-text:hover p{
+    transition-duration: 0.5s;/*how long it takes the trasition to occur*/
+    transition-timing-function: ease-in;/*speed of transition*/
+    transform: translate3d(-75px, 0, 0); /*moves the text position to left by 75px*/
+    animation: fadeIn ease 3s;/*sets the animation and duration*/
+    animation-iteration-count: 1;/*animates it once*/
+    animation-fill-mode:forwards;/*starts fading in toward forward*/
+  }
+
+/*Blocks*/
+
+.block {
+    border-radius: 10px;
+    padding-top: 25px;
+    padding-left: 20px;
+    font-size: x-large;
+}
+
+/*adds image to the background and creates a gradient to make text visible during hover*/
+/*all images were made on Canva*/
+.footprint {
+    background-image: url(../images/box1.png);
+}
+
+.footprint:hover {
+    background-image:linear-gradient(rgba(110, 156, 88, 0.829), rgb(152, 183, 152)), url("../images/box1.png");
+}
+
+.waste {
+    background-image: url(../images/box2.png);
+}
+
+.waste:hover {
+    background-image:linear-gradient(rgba(110, 156, 88, 0.829), rgb(152, 183, 152)), url("../images/box2.png");
+}
+
+.reuse {
+    background-image: url(../images/box3.png);
+}
+
+.reuse:hover {
+    background-image:linear-gradient(rgba(110, 156, 88, 0.829), rgb(152, 183, 152)), url("../images/box3.png");
+}
+
+.recycle {
+    background-image: url(../images/box4.png);
+}
+
+.recycle:hover {
+    background-image:linear-gradient(rgba(110, 156, 88, 0.829), rgb(152, 183, 152)), url("../images/box4.png");
+}
+
+.green-activities {
+    background-image: url(../images/box5.png);
+}
+
+.green-activities:hover {
+    background-image:linear-gradient(rgba(110, 156, 88, 0.829), rgb(152, 183, 152)), url("../images/box5.png");
+}
+
+.donate {
+    background-image: url(../images/box6.png);
+}
+
+.donate:hover {
+    background-image:linear-gradient(rgba(110, 156, 88, 0.829), rgb(152, 183, 152)), url("../images/box6.png");
+}
+
+/*Personal Goals*/
+
+.personal-goals {
+    width: 80%;
+    margin:0 auto;
+}
+
+.personal-goals li {
+    padding: 20px 0;
+    margin-left: 20px;
+    padding-left: 10px;
+}
+
+/*Replace bullet points with images*/
+.personal-goals li:first-of-type {
+    list-style-image: url(../images/listimg2.png);
+    /* https://www.flaticon.com/free-icon/eco-friendly_4909025?term=tote&page=1&position=2&origin=search&related_id=4909025 */
+}
+
+.personal-goals li:nth-of-type(2) {
+    list-style-image: url(../images/listimg1.png);
+    /* https://www.flaticon.com/free-icon/bus_1068580?term=bus&page=1&position=7&origin=search&related_id=1068580 */
+}
+
+.personal-goals li:nth-of-type(3) {
+    list-style-image: url(../images/listimg3.png);
+    /* https://www.flaticon.com/free-icon/light-bulb_2987996?term=lightbulb&page=1&position=5&origin=search&related_id=2987996 */
+}
+
+.personal-goals li:nth-of-type(4) {
+    list-style-image: url(../images/listimg4.png);
+    /* https://www.flaticon.com/free-icon/recycle_3264045?term=recycle+box&page=1&position=16&origin=search&related_id=3264045*/
+}
+
+.personal-goals li:nth-of-type(5) {
+    list-style-image: url(../images/listimg5.png);
+    /* https://www.flaticon.com/free-icon/family_2061423?term=family&page=1&position=20&origin=search&related_id=2061423*/
+}
+
+.personal-goals li:last-of-type {
+    list-style-image: url(../images/listimg6.png);
+    /* https://www.flaticon.com/free-icon/diet_706164?term=food&page=1&position=2&origin=search&related_id=706164 */
+}

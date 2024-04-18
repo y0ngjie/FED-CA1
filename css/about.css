@@ -1,0 +1,94 @@
+/* About CSS*/
+/*
+FED CA1 WEBSITE
+
+Author: Li Yongjie
+Date: 17 May 2023
+Filename: about.css */
+
+/* Elements */
+
+body {
+    background-image: linear-gradient(rgba(211, 181, 181, 0.4), rgba(183, 236, 188, 0.9));
+    background-attachment: fixed;
+    /*attaches the background so that it doesnt move even when scrolling*/
+}  
+
+h2 {
+    font-family: Fredoka, sans-serif;
+}
+
+h3{
+    margin-top: 15px;
+}
+
+p{
+    margin-bottom: 10px;
+}
+
+img{
+    border-radius: 10px;
+    /*makes the image rounder by a little*/
+}
+
+/* Classes */
+ .image-size1{
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
+.first-banner {
+    background-image: url(../images/banner1.png);
+}
+
+.second-banner {
+    background-image: url(../images/banner2.png);
+}
+
+.third-banner{
+    background-image: url(../images/banner3.png);
+}
+
+.personality {
+  margin-top: 10px;
+}
+
+/* Flex Columns */
+.flex-two-col {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    /*creates a slight shadow effects for the boxs*/
+    padding:20px;
+    background-color: rgb(255, 255, 255);
+}
+
+.column-text h3::first-letter{
+    font-size: 30px;
+   /*makes the first letter of each h3 larger for column texts*/
+}
+
+.flex-three-col {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding:20px;
+    background-color: rgb(255, 255, 255);
+}
+
+.flex-three-col img {
+    width: 150px;
+    float:right;
+}
+
+.column-text {
+    margin:auto
+}
+
+.values-img {
+    width:500px
+}
+
+.personality-img {
+    width:400px
+}
+
+
+
